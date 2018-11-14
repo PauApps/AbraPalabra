@@ -26,9 +26,9 @@ public class Pictionary extends AppCompatActivity {
 
     private DB db;
 
-    private InterstitialAd mInterstitialAd;
+    private InterstitialAd   mInterstitialAd;
 
-
+    //test comment
 
     private int iClicks = -1;
     private int aciertos = 0;

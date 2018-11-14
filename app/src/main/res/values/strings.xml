@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AbraPalabra</string>
+    <string name="menu_item_jugar">Jugar</string>
+    <string name="menu_item_informacion">Informacion</string>
+    <string name="timer">timer</string>
+    <string name="click_para_empezar">Click para empezar!</string>
+    <string name="informacion">INFORMACION</string>
+    <string name="info">info</string>
+    <string name="logo">Logo</string>
+    <string name="sound">sound</string>
+</resources>
+

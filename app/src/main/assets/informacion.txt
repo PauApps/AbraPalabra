@@ -1,0 +1,12 @@
+AbraPalabra es una aplicacion creada con el fin de ser un recurso para aquellos que deseen jugar al mitico Pictionary, sin disponer del juego.
+
+Gracias a esta aplicacion usted dispone de una gran variedad de palabras, Juegue con ellas a todo lo se le ocurra!
+
+Aplicacion desarrollada por
+PauApps.
+
+Idea original de
+Joan Rossello Mateo.
+
+Colaboracion especial de
+Toni Barbancho Llull y Albert Ferrer Cabalin.

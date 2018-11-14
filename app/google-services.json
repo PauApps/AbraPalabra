@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "881007349247",
+    "firebase_url": "https://abrapalabra-64abe.firebaseio.com",
+    "project_id": "abrapalabra-64abe",
+    "storage_bucket": "abrapalabra-64abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881007349247:android:f45da1e1b12f9ae3",
+        "android_client_info": {
+          "package_name": "com.pauapps.pau.abrapalabra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881007349247-29or3regjknov0m70er9ubmq7lnc9gii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAALyCPMT5eFk30Mn_XiybEPn9iXAqoLhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -46,10 +46,10 @@ public class Informacion extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        TextView tv = (TextView) findViewById(R.id.information);
+        TextView tv = findViewById(R.id.information);
         tv.setText(buf.toString());
 
-        TextView title = (TextView) findViewById(R.id.title);
+        TextView title = findViewById(R.id.title);
         title.setTypeface(type);
         tv.setTypeface(type);
 

@@ -32,10 +32,10 @@ public class Principal extends AppCompatActivity {
 
         Typeface type = Typeface.createFromAsset(getAssets(), "fonts/SunriseInternationalDemo.otf");
 
-        Button informacion = (Button) findViewById(R.id.informacion);
+        Button informacion = findViewById(R.id.informacion);
         informacion.setTypeface(type);
 
-        Button jugar = (Button) findViewById(R.id.jugar);
+        Button jugar = findViewById(R.id.jugar);
         jugar.setTypeface(type);
 
         mInterstitialAdFirst = new InterstitialAd(this);
@@ -71,6 +71,6 @@ public class Principal extends AppCompatActivity {
 
     public void onClickInformación(View v) {
         startActivity(new Intent(Principal.this, Informacion.class));
-        System.out.println("" + db.numberOfRows());
+        System.out.println(db.numberOfRows());
     }
 }

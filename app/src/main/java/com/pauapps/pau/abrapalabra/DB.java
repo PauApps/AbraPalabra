@@ -29,7 +29,7 @@ public class DB extends SQLiteOpenHelper {
     private static final String ESP_COLUMN_ID = "id_palabra";
     private static final String ESP_COLUMN_PALABRA = "palabra";
 
-    public DB(Context context) {
+    DB(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         SQLiteDatabase db = this.getReadableDatabase();
 
@@ -85,7 +85,7 @@ public class DB extends SQLiteOpenHelper {
         db.endTransaction();
     }
 
-    public ArrayList<String> getPalabras() {
+    ArrayList<String> getPalabras() {
         ArrayList<String> array_list = new ArrayList<>();
 
         String query = "Select * from " + ESP_TABLE_NAME;
@@ -103,7 +103,7 @@ public class DB extends SQLiteOpenHelper {
         return array_list;
     }
 
-    public int numberOfRows() {
+    int numberOfRows() {
         SQLiteDatabase db = this.getWritableDatabase();
         return (int) DatabaseUtils.queryNumEntries(db, ESP_TABLE_NAME);
     }

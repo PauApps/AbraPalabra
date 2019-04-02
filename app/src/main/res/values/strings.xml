@@ -8,5 +8,10 @@
     <string name="info">info</string>
     <string name="logo">Logo</string>
     <string name="sound">sound</string>
+    <string name="tiempo">Tiempo :</string>
+    <string name="aciertos">Aciertos :</string>
+    <string name="_0">0</string>
+    <string name="_60">60</string>
+    <string name="abrapalabra">ABRAPALABRA</string>
 </resources>
 

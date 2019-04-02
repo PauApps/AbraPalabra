@@ -12,7 +12,7 @@
         android:background="@color/fondop"
         android:contentDescription="@string/logo"
         android:src="@drawable/logotipo"
-        android:text="ABRAPALABRA" />
+        android:text="@string/abrapalabra" />
 
     <RelativeLayout
         android:layout_width="wrap_content"

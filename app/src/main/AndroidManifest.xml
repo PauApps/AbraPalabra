@@ -41,6 +41,10 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
+        <meta-data
+            android:name="google_analytics_adid_collection_enabled"
+            android:value="false" />
+
     </application>
 
 </manifest>
